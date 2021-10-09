@@ -1,0 +1,96 @@
+h3 {
+  color: #37447e;
+  font-size: 26px;
+  font-weight: 900;
+  display: inline-block;
+
+  margin-left: 600px;
+}
+#prvibatn {
+  background-color: #111b47;
+  color: white;
+  height: 26px;
+  width: 160px;
+  border-radius: 2px;
+  margin-left: 1500px;
+  display: inline-block;
+}
+#designer_1 {
+  position: absolute;
+  left: 28.98%;
+  right: -32.45%;
+  top: -1.06%;
+  bottom: 75.97%;
+  opacity: 0.5%;
+}
+h1 {
+  color: #091133;
+  height: 132px;
+  width: 539px;
+  left: 0px;
+  top: 0px;
+  font-size: 50px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  margin-left: 200px;
+  margin-top: 250px;
+}
+#lorem1 {
+  height: 164px;
+  width: 539px;
+  left: 0px;
+  top: 152px;
+  color: #505f98;
+  margin-left: 200px;
+}
+#PrchsUIkit {
+  background-color: #111b47;
+  color: white;
+
+  height: 36px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+  margin-left: 200px;
+}
+#Learnmore {
+  height: 36px;
+  width: 189px;
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+  background-color: white;
+  color: #091133;
+  font-weight: 500px;
+}
+h2 {
+  color: #091133;
+  margin-left: 200px;
+  height: 48px;
+  width: 540px;
+  border-radius: nullpx;
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 500px;
+}
+#lorem2 {
+  height: 140px;
+  width: 540px;
+  left: 0px;
+  top: 64px;
+  border-radius: nullpx;
+  margin-left: 200px;
+  color: #505f98;
+}
+#malilorem {
+  color: #5d6970;
+  height: 54px;
+  width: 255px;
+  left: 0px;
+  top: 82px;
+  border-radius: nullpx;
+  display: inline-block;
+  margin-left: 200px;
+  border: black 2px solid;
+}
