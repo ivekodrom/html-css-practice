@@ -1,0 +1,34 @@
+body{
+    background-color:rgb(190, 190, 229);
+width: 50em;
+}
+
+h1{
+    color: ghostwhite;
+    font-weight:bolder;
+}
+em{
+    color: white;
+}
+ button:hover{
+     color: green;
+     font-size: 30px;
+     background-color: rgb(224, 13, 13);
+
+ }
+ p{
+     color:gold; border: 5px;
+
+ }
+ a{
+     color: white;
+     background-size: auto;
+     background-color: teal;
+ }
+ p::first-line {
+    color: blue;
+    p:nth-of-type(2n) {
+        color: white;
+
+   } 
+  
