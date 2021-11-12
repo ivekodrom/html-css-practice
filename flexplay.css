@@ -8,9 +8,10 @@ main {
 main .sidebar {
   background-color: #6930c3;
   flex: 1 2 300px;
-  border: 2px solid white;
+  border: 2px solid red;
 }
 main .maincontent {
   background-color: #80ffdb;
   flex: 2 1 800px;
+  border: solid saddlebrown;
 }
