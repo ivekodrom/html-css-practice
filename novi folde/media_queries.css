@@ -17,8 +17,16 @@ li {
 h1 {
   color: black;
 }
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 500px) {
   h1 {
     color: red;
   }
 }
+@media screen and (orientation: landscape)
+{
+    body{
+        backgound-color: red;
+    }        
+    }
+} 
+    
