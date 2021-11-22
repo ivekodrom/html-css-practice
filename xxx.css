@@ -18,6 +18,9 @@ li {
   display: grid;
   align-items: center;
   align-content: center;
+  font-size: 26px;
+  color: #37447e;
+  font-weight: 900;
 }
 .text-right {
   text-align: right;
