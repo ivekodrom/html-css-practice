@@ -35,3 +35,32 @@ button {
   height: 26px;
   width: 160px;
 }
+.class_1 {
+  display: flex;
+  flex-direction: column;
+  width: 539px;
+  height: 800px;
+  padding: 300px 0 0 300px;
+}
+.class_2 {
+  width: 540px;
+  height: 700px;
+  margin-left: 300px;
+  display: flex;
+  flex-direction: column;
+  border: solid black 2px;
+}
+.inline {
+  width: 510px;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.blok {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+}
