@@ -53,14 +53,15 @@ button {
 .inline {
   width: 510px;
   height: 40px;
-
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  border: solid yellow 2px;
 }
-.blok {
+.container1 {
+  width: 1555px;
+  height: 700px;
+  border: solid 3px red;
   display: flex;
-  flex-direction: column;
-}
-.line {
+  justify-content: flex-start;
 }
