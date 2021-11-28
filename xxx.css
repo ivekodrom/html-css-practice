@@ -38,17 +38,20 @@ button {
 .class_1 {
   display: flex;
   flex-direction: column;
-  width: 539px;
+  width: auto;
   height: 800px;
   padding: 300px 0 0 300px;
+  border: solid seagreen 4px;
+  background-image: image(/designer_1.png);
 }
 .class_2 {
   width: 540px;
-  height: 700px;
+  height: auto;
   margin-left: 300px;
   display: flex;
   flex-direction: column;
   border: solid black 2px;
+  padding-top: 5%;
 }
 .inline {
   width: 510px;
@@ -59,9 +62,9 @@ button {
   border: solid yellow 2px;
 }
 .container1 {
-  width: 1555px;
-  height: 700px;
+  width: auto;
+  height: auto;
   border: solid 3px red;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: row;
 }
