@@ -42,7 +42,7 @@ button {
   height: 800px;
   padding: 300px 0 0 300px;
   border: solid seagreen 4px;
-  background-image: image(/designer_1.png);
+  background-image: image("designer_1.png");
 }
 .class_2 {
   width: 540px;
@@ -67,4 +67,31 @@ button {
   border: solid 3px red;
   display: flex;
   flex-direction: row;
+}
+.column_slika {
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: solid 2px red;
+  margin-left: 300px;
+  padding-top: 200px;
+}
+.column_texta {
+  color: #6f7cb2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: auto;
+  height: 1500px;
+  border: solid 2px purple;
+  padding-left: 100px;
+  padding-top: 150px;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
 }
