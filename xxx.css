@@ -44,7 +44,7 @@ button {
   width: auto;
   height: auto;
   padding: 15%;
-  background-size: contain;
+  background-size: contain 85%;
   background-repeat: no-repeat;
   background-image: url(/designer_1.png);
   background-position-x: center;
