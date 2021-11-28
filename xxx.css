@@ -44,8 +44,10 @@ button {
   width: auto;
   height: auto;
   padding: 15%;
-
-  background-image: image("designer_1.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(/designer_1.png);
+  background-position-x: center;
 }
 .class_2 {
   width: 540px;
@@ -108,6 +110,7 @@ button {
   align-content: center;
   justify-content: center;
   padding-top: 10%;
+  background-color: #e7ecff;
 }
 h1 {
   color: #091133;
@@ -131,4 +134,24 @@ h6 {
 }
 p {
   color: #6f7cb2;
+}
+.container4 {
+  background-color: #e7ecff;
+  height: 15%;
+  width: 55%;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 15%;
+  padding-top: 10%;
+}
+footer {
+  background-color: #e7ecff;
+
+  height: auto;
+  width: 52%;
+  display: flex;
+  justify-content: flex-start;
+
+  margin-left: 15%;
+  padding-left: 3%;
 }
