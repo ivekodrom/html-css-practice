@@ -39,15 +39,15 @@ button {
   display: flex;
   flex-direction: column;
   width: auto;
-  height: 800px;
-  padding: 300px 0 0 300px;
+  height: auto;
+  padding: 15%;
   border: solid seagreen 4px;
   background-image: image("designer_1.png");
 }
 .class_2 {
   width: 540px;
   height: auto;
-  margin-left: 300px;
+  margin-left: 15%;
   display: flex;
   flex-direction: column;
   border: solid black 2px;
@@ -75,7 +75,7 @@ button {
   flex-direction: column;
   justify-content: space-around;
   border: solid 2px red;
-  margin-left: 300px;
+  margin-left: 15%;
   padding-top: 200px;
 }
 .column_texta {
@@ -87,11 +87,43 @@ button {
   height: 1500px;
   border: solid 2px purple;
   padding-left: 100px;
-  padding-top: 150px;
+  padding-top: 200px;
 }
 .container2 {
   display: flex;
   flex-direction: row;
   width: auto;
   height: auto;
+}
+.container3 {
+  border: solid 2px maroon;
+  height: auto;
+  width: 55%;
+  text-align: center;
+  padding-top: 20%;
+  margin-left: 15%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding-top: 10%;
+}
+h1 {
+  color: #091133;
+  font-size: 50px;
+}
+h2 {
+  color: #222f65;
+
+  font-weight: 700;
+  font-size: 36px;
+}
+h5 {
+  color: #37447e;
+}
+h6 {
+  color: #5d6970;
+}
+p {
+  color: #6f7cb2;
 }
