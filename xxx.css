@@ -2,7 +2,7 @@ nav {
   width: 65%;
   height: auto;
   margin: auto;
-
+  background-color: transparent;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -44,7 +44,7 @@ button {
   width: auto;
   height: auto;
   padding: 15%;
-  background-size: contain 85%;
+  background-size: contain;
   background-repeat: no-repeat;
   background-image: url(/designer_1.png);
   background-position-x: center;
