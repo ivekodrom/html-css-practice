@@ -15,12 +15,12 @@ nav {
 }
 .raul {
   border: solid 2px yellow;
-  width: 30%;
+  width: 15%;
   margin: auto;
   height: auto;
   color: #002265;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-content: flex-start;
 }
 ul {
@@ -30,11 +30,27 @@ ul {
 }
 li {
   padding: 30px;
+  font-weight: 400;
 }
 .contact_me {
-  height: 1%;
   width: auto;
-  border-radius: 5px;
+  height: auto;
+  border-radius: 10px;
   color: white;
   background-color: #608af5;
+  border: solid red 2px;
+}
+.Front_end {
+  border: solid red 2px;
+  margin: auto;
+  width: 65%;
+  font-weight: 800;
+  font-size: 35px;
+
+  color: #002265;
+}
+.opis {
+  color: #082032;
+  font-size: 23px;
+  font-size: 25px;
 }
