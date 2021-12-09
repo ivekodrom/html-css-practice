@@ -1,2 +1,40 @@
-g {
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  width: 65%;
+  height: auto;
+  margin: auto;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-content: end;
+  border: solid 2px black;
+}
+.raul {
+  border: solid 2px yellow;
+  width: 30%;
+  margin: auto;
+  height: auto;
+  color: #002265;
+  display: flex;
+  justify-content: flex-start;
+  align-content: flex-start;
+}
+ul {
+  list-style: none;
+  display: flex;
+  margin: auto;
+}
+li {
+  padding: 30px;
+}
+.contact_me {
+  height: 1%;
+  width: auto;
+  border-radius: 5px;
+  color: white;
+  background-color: #608af5;
 }
