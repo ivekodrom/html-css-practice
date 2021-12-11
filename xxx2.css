@@ -46,7 +46,7 @@ li {
   color: white;
   background-color: #608af5;
   border: solid red 2px;
-  font-weight: 600;
+  font-weight: 500;
 }
 .Front_end {
   border: solid red 2px;
@@ -126,4 +126,6 @@ li {
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
+}
+@media screen {
 }
