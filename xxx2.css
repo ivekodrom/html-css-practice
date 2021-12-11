@@ -117,6 +117,7 @@ li {
   text-align: center;
   font-size: 35px;
   color: white;
+  font-weight: 400;
 }
 .container {
   border: solid red 2px;
