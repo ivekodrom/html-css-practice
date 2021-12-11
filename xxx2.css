@@ -1,5 +1,7 @@
 body {
   font-family: "Poppins", sans-serif;
+  background-image: url(/xxx2/Background.png);
+  background-position: center;
 }
 
 nav {
@@ -68,6 +70,51 @@ li {
 .passions {
   text-align: center;
   font-size: 35px;
-  color: #002265;
+  color: #14279b;
   margin: 5%;
+}
+.red_slika1 {
+  border: solid purple 2px;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.portfolio {
+  text-align: center;
+  color: #14279b;
+  font-size: 35px;
+  margin-top: 10%;
+}
+.red_slika2 {
+  border: solid purple 2px;
+  width: 65%;
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+}
+.contactme {
+  text-align: center;
+  color: #14279b;
+  font-size: 35px;
+  margin-top: 10%;
+}
+.red_slika3 {
+  border: solid purple 2px;
+  width: 65%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  margin-top: 2%;
+}
+.designby {
+  border: solid black 2px;
+  width: 65%;
+  margin-top: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 35px;
 }
