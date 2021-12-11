@@ -111,10 +111,19 @@ li {
 .designby {
   border: solid black 2px;
   width: 65%;
-  margin-top: 20%;
+  height: auto;
   margin: auto;
-  display: flex;
-  justify-content: center;
-  align-content: center;
+  margin-top: 30%;
+  text-align: center;
   font-size: 35px;
+  color: white;
+}
+.container {
+  border: solid red 2px;
+  width: 65%;
+  height: auto;
+  background-image: url(/xxx2/Vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: auto;
 }
