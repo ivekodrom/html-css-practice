@@ -48,19 +48,26 @@ li {
   border: solid red 2px;
   font-weight: 500;
 }
+.container1 {
+  border: solid purple 2px;
+  margin: auto;
+  margin-top: 5%;
+  height: auto;
+  width: 65%;
+  display: flex;
+  justify-content: flex-start;
+}
+.pc {
+  width: 55%;
+}
 .Front_end {
   border: solid red 2px;
   margin: auto;
-  width: 65%;
+  width: 50%;
   font-weight: 800;
   font-size: 35px;
   padding-top: 5%;
-  background-image: url(/xxx2/hero.png);
-  background-position: calc(80%);
-  background-repeat: no-repeat;
-  background-size: 25%;
   color: #002265;
-  padding-left: 10%;
 }
 .opis {
   color: #082032;
