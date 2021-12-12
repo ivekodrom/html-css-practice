@@ -5,7 +5,7 @@ body {
 }
 
 nav {
-  width: 65%;
+  width: 75%;
   height: auto;
   margin: auto;
   background-color: transparent;
@@ -35,7 +35,7 @@ ul {
   justify-content: flex-start;
 }
 li {
-  padding: 30px;
+  padding: 15px;
   font-weight: 400;
   font-size: 25px;
 }
@@ -51,19 +51,24 @@ li {
 .container1 {
   border: solid purple 2px;
   margin: auto;
-  margin-top: 5%;
+  margin-top: 4%;
   height: auto;
-  width: 65%;
+  width: 70%;
   display: flex;
   justify-content: flex-start;
 }
 .pc {
-  width: 55%;
+  width: 40%;
+  background-image: url(/xxx2/hero.png);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-position: left;
 }
 .Front_end {
   border: solid red 2px;
   margin: auto;
-  width: 50%;
+
+  width: auto;
   font-weight: 800;
   font-size: 35px;
   padding-top: 5%;
