@@ -35,7 +35,7 @@ ul {
   justify-content: flex-start;
 }
 li {
-  padding: 15px;
+  padding: 20px;
   font-weight: 400;
   font-size: 25px;
 }
@@ -70,7 +70,7 @@ li {
 
   width: auto;
   font-weight: 800;
-  font-size: 35px;
+  font-size: 50px;
   padding-top: 5%;
   color: #002265;
 }
