@@ -13,10 +13,8 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   justify-content: end;
-  border: solid 2px black;
 }
 .raul {
-  border: solid 2px yellow;
   width: 10%;
   margin: auto;
   height: auto;
@@ -45,11 +43,10 @@ li {
   border-radius: 10px;
   color: white;
   background-color: #608af5;
-  border: solid red 2px;
+
   font-weight: 500;
 }
 .container1 {
-  border: solid purple 2px;
   margin: auto;
   margin-top: 4%;
   height: auto;
@@ -65,7 +62,6 @@ li {
   background-position: left;
 }
 .Front_end {
-  border: solid red 2px;
   margin: auto;
 
   width: auto;
@@ -86,7 +82,6 @@ li {
   margin: 5%;
 }
 .red_slika1 {
-  border: solid purple 2px;
   width: 65%;
   margin: auto;
   display: flex;
@@ -99,7 +94,6 @@ li {
   margin-top: 10%;
 }
 .red_slika2 {
-  border: solid purple 2px;
   width: 65%;
   margin: auto;
   margin-top: 2%;
@@ -113,7 +107,6 @@ li {
   margin-top: 10%;
 }
 .red_slika3 {
-  border: solid purple 2px;
   width: 65%;
   display: flex;
   justify-content: space-around;
@@ -121,7 +114,6 @@ li {
   margin-top: 2%;
 }
 .designby {
-  border: solid black 2px;
   width: 65%;
   height: auto;
   margin: auto;
@@ -132,13 +124,14 @@ li {
   font-weight: 400;
 }
 .container {
-  border: solid red 2px;
   width: 65%;
-  height: auto;
+  height: 10%;
+  border: solid white 1px;
   background-image: url(/xxx2/Vector.png);
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
+  margin-top: 0;
 }
 @media screen {
 }
