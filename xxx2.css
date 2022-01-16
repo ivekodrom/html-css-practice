@@ -133,5 +133,7 @@ li {
   margin: auto;
   margin-top: 0;
 }
-@media screen {
+@media screen and (min-width: 1260px) {
+  nav {
+  }
 }
