@@ -12,7 +12,6 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  justify-content: end;
 }
 .raul {
   width: 10%;
@@ -133,7 +132,22 @@ li {
   margin: auto;
   margin-top: 0;
 }
-@media screen and (min-width: 1260px) {
-  nav {
+@media (max-width: 867px) {
+  .red_slika1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .red_slika2 {
+    flex-direction: column;
+  }
+
+  .red_slika3 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1260px) {
+  .container1 {
+    display: flex;
+    flex-direction: column;
   }
 }
