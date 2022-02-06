@@ -148,6 +148,15 @@ li {
 @media (max-width: 1260px) {
   .container1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .pc {
+    width: 40%;
+    background-image: url(/xxx2/hero.png);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: center;
+    height: 400px;
   }
 }
