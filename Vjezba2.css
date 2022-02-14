@@ -1,0 +1,13 @@
+body {
+}
+
+.meni {
+  width: auto;
+  color: #172774;
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+}
