@@ -1,0 +1,35 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/xxx2/Background.png);
+  background-position: center;
+}
+nav {
+  border: 2px solid black;
+  width: 100%;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+ul {
+  border: 2px solid red;
+  list-style: none;
+  display: flex;
+  margin: auto;
+}
+li {
+  border: 2px solid yellow;
+  padding: 40px;
+  font-weight: 400;
+  font-size: 25px;
+}
+.raul {
+  border: 2px solid green;
+  color: #002265;
+  display: flex;
+  align-content: flex-start;
+  align-self: center;
+  padding-right: 5%;
+  font-size: 25px;
+  font-weight: 400;
+}

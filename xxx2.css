@@ -5,7 +5,8 @@ body {
 }
 
 nav {
-  width: 75%;
+  border: 2px solid black;
+  width: 100%;
   height: auto;
   margin: auto;
   background-color: transparent;
@@ -14,6 +15,7 @@ nav {
   justify-content: space-between;
 }
 .raul {
+  border: 2px solid green;
   width: 10%;
   margin: auto;
   height: auto;
@@ -26,12 +28,14 @@ nav {
   font-weight: 400;
 }
 ul {
+  border: 2px solid red;
   list-style: none;
   display: flex;
   margin: auto;
   justify-content: flex-start;
 }
 li {
+  border: 2px solid yellow;
   padding: 20px;
   font-weight: 400;
   font-size: 25px;
@@ -42,10 +46,10 @@ li {
   border-radius: 10px;
   color: white;
   background-color: #608af5;
-
   font-weight: 500;
 }
 .container1 {
+  border: 2px solid blue;
   margin: auto;
   margin-top: 4%;
   height: auto;
@@ -54,10 +58,11 @@ li {
   justify-content: flex-start;
 }
 .pc {
+  border: 2px solid rgb(214, 33, 154);
   width: 40%;
   background-image: url(/xxx2/hero.png);
   background-repeat: no-repeat;
-  background-size: 80%;
+  background-size: 300px;
   background-position: left;
 }
 .Front_end {
@@ -131,32 +136,4 @@ li {
   background-position: bottom;
   margin: auto;
   margin-top: 0;
-}
-@media (max-width: 867px) {
-  .red_slika1 {
-    display: flex;
-    flex-direction: column;
-  }
-  .red_slika2 {
-    flex-direction: column;
-  }
-
-  .red_slika3 {
-    flex-direction: column;
-  }
-}
-@media (max-width: 1260px) {
-  .container1 {
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-  }
-  .pc {
-    width: 40%;
-    background-image: url(/xxx2/hero.png);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    background-position: center;
-    height: 400px;
-  }
 }
