@@ -1,0 +1,38 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(/xxx2/Background.png);
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.raul {
+  color: #002265;
+  display: flex;
+  align-self: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.hero {
+  border: #002265 solid 2px;
+  display: flex;
+  justify-content: center;
+}
+.Front_end {
+  border: #082032 solid 2px;
+  font-weight: 800;
+  font-size: 50px;
+  padding-top: 5%;
+  color: #002265;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.opis {
+  color: #082032;
+  font-size: 23px;
+  font-size: 25px;
+  border: #002265 solid 2px;
+}
