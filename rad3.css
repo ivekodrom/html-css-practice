@@ -27,7 +27,7 @@ li {
   border: 2px solid green;
   color: #002265;
   display: flex;
-  align-content: flex-start;
+
   align-self: center;
   font-size: 25px;
   font-weight: 500;
@@ -126,4 +126,131 @@ li {
   background-position: bottom;
   margin: auto;
   margin-top: 5%;
+  max-height: 300px;
+}
+@media only screen and (max-width: 1550px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  .red_slika3 {
+    border: 2px solid red;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .red_slika2 {
+    border: 2px solid blueviolet;
+    margin: auto;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .red_slika1 {
+    border: 2px solid red;
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .container1 {
+    border: 2px solid blue;
+    margin-top: 4%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .Front_end {
+    border: 2px solid green;
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+    color: #002265;
+  }
+  .pc {
+    border: 2px solid rgb(214, 33, 154);
+    width: 30%;
+    background-image: url(/xxx2/hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  nav {
+    border: 2px solid black;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 18%;
+  }
+  ul {
+    border: 2px solid red;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 22%;
+  }
+  li {
+    border: 2px solid yellow;
+    padding: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .raul {
+    border: 2px solid green;
+    color: #002265;
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+}
+@media only screen and (max-width: 600px) {
+  nav {
+    border: 2px solid black;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  ul {
+    border: 2px solid red;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-right: 22%;
+  }
+  li {
+    border: 2px solid yellow;
+    padding: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  .raul {
+    border: 2px solid green;
+    color: #002265;
+    display: flex;
+    flex-direction: column;
+
+    align-self: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
 }
