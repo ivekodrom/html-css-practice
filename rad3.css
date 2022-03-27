@@ -110,13 +110,12 @@ li {
 }
 .container {
   max-width: 1300px;
-
+  height: 10%;
+  border: solid white 1px;
   background-image: url(/xxx2/Vector.png);
   background-repeat: no-repeat;
   background-position: bottom;
   margin: auto;
-  margin-top: 5%;
-  max-height: 300px;
 }
 @media only screen and (max-width: 1550px) {
   nav {
@@ -245,14 +244,5 @@ li {
     align-self: center;
     font-size: 25px;
     font-weight: 500;
-  }
-  .container {
-    max-width: 1300px;
-    background-image: url(/xxx2/Vector.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
-    margin: auto;
-    margin-top: 5%;
-    max-height: 300px;
   }
 }
