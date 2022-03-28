@@ -7,6 +7,8 @@ body {
 nav {
   display: flex;
   justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 .raul {
   color: #002265;
@@ -21,7 +23,7 @@ nav {
   justify-content: center;
 }
 .Front_end {
-  border: #082032 solid 2px;
+  border: red solid 2px;
   font-weight: 800;
   font-size: 50px;
   padding-top: 5%;
@@ -29,10 +31,71 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .opis {
   color: #082032;
   font-size: 23px;
   font-size: 25px;
   border: #002265 solid 2px;
+}
+.passions {
+  text-align: center;
+  font-size: 35px;
+  color: #14279b;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.red_slika1 {
+  max-width: fit-content;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.portfolio {
+  text-align: center;
+  color: #14279b;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.red_slika2 {
+  margin: auto;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.contactme {
+  text-align: center;
+  color: #14279b;
+  font-size: 35px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+.red_slika3 {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: auto;
+}
+.designby {
+  width: fit-content;
+  margin: auto;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-weight: 400;
+  margin-top: 10%;
+}
+.container {
+  width: fit-content;
+  height: 20%;
+  border: solid white 1px;
+  background-image: url(/xxx2/Vector.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin: auto;
 }
