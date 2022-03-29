@@ -115,7 +115,7 @@ nav {
   background-image: url(/xxx2/Vector.png);
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: 100%;
+  background-size: auto;
   margin: auto;
 }
 @media only screen and (min-width: 1000px) {
