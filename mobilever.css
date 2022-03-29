@@ -3,12 +3,29 @@ body {
   background-image: url(/xxx2/Background.png);
   background-position: center;
 }
-
+.slika {
+  border: 2px solid black;
+ height: 500px;
+  background-image: url(/xxx2/hero.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: center;
+  
+}
+.vector{
+  
+ height: 50px;
+ width: 50px;
+ background-image: url(/xxx2/Vectormali.png);
+ background-repeat: no-repeat;
+ background-position: center;
+ display: flex;
+ }
 nav {
   display: flex;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 .raul {
   color: #002265;
@@ -17,15 +34,11 @@ nav {
   font-size: 25px;
   font-weight: 500;
 }
-.hero {
-  border: #002265 solid 2px;
-  display: flex;
-  justify-content: center;
-}
+
 .Front_end {
   border: red solid 2px;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 45px;
   padding-top: 5%;
   color: #002265;
   display: flex;
@@ -38,6 +51,7 @@ nav {
   font-size: 23px;
   font-size: 25px;
   border: #002265 solid 2px;
+  margin-top: 5%;
 }
 .passions {
   text-align: center;
@@ -92,10 +106,17 @@ nav {
 }
 .container {
   width: fit-content;
-  height: 20%;
+  height: 200px;
   border: solid white 1px;
   background-image: url(/xxx2/Vector.png);
   background-repeat: no-repeat;
-  background-position: bottom;
+  background-position: center;
   margin: auto;
+  background-size: contain;
 }
+@media only screen and (min-width: 1000px) {
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(/xxx2/Background.png);
+    background-position: center;
+  }
