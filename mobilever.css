@@ -14,7 +14,7 @@ body {
   height: 500px;
   background-image: url(/xxx2/hero.png);
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-size: 400px;
   background-position: center;
 }
 .vector {
@@ -199,7 +199,7 @@ nav {
     max-width: fit-content;
     margin: auto;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
   }
   .portfolio {
@@ -213,6 +213,7 @@ nav {
     margin: auto;
     max-width: fit-content;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
   }
   .contactme {
@@ -225,6 +226,7 @@ nav {
   .red_slika3 {
     max-width: fit-content;
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     margin: auto;
   }
