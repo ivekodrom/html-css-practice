@@ -3,24 +3,28 @@ body {
   background-image: url(/xxx2/Background.png);
   background-position: center;
 }
+#content-desktop {
+  display: none;
+}
+#content-mobile {
+  display: block;
+}
 .slika {
   border: 2px solid black;
- height: 500px;
+  height: 500px;
   background-image: url(/xxx2/hero.png);
   background-repeat: no-repeat;
   background-size: 500px;
   background-position: center;
-  
 }
-.vector{
-  
- height: 50px;
- width: 50px;
- background-image: url(/xxx2/Vectormali.png);
- background-repeat: no-repeat;
- background-position: center;
- display: flex;
- }
+.vector {
+  height: 50px;
+  width: 50px;
+  background-image: url(/xxx2/Vectormali.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -102,17 +106,17 @@ nav {
   font-size: 35px;
   color: white;
   font-weight: 400;
-  margin-top: 10%;
+  margin-top: 30%;
 }
 .container {
+  height: auto;
   width: fit-content;
-  height: 200px;
-  border: solid white 1px;
+  border: solid black 1px;
   background-image: url(/xxx2/Vector.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: bottom;
+  background-size: 100%;
   margin: auto;
-  background-size: contain;
 }
 @media only screen and (min-width: 1000px) {
   body {
@@ -120,3 +124,126 @@ nav {
     background-image: url(/xxx2/Background.png);
     background-position: center;
   }
+  #content-desktop {
+    display: block;
+  }
+  #content-mobile {
+    display: none;
+  }
+
+  nav {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 18%;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    padding-right: 22%;
+  }
+  li {
+    padding: 40px;
+    font-weight: 600;
+    font-size: 25px;
+    color: black;
+  }
+  .raul {
+    color: #002265;
+    display: flex;
+
+    align-self: center;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .contact_me {
+    border-radius: 10px;
+    color: white;
+    background-color: #608af5;
+    font-weight: 600;
+  }
+  .container1 {
+    margin-top: 4%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .Front_end {
+    font-weight: 800;
+    font-size: 50px;
+    padding-top: 5%;
+    color: #002265;
+  }
+  .opis {
+    color: #082032;
+    font-size: 23px;
+    font-size: 25px;
+  }
+  .pc {
+    width: 30%;
+    background-image: url(/xxx2/hero.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 300px;
+  }
+  .passions {
+    text-align: center;
+    font-size: 35px;
+    color: #14279b;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  .red_slika1 {
+    max-width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .portfolio {
+    text-align: center;
+    color: #14279b;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  .red_slika2 {
+    margin: auto;
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-around;
+  }
+  .contactme {
+    text-align: center;
+    color: #14279b;
+    font-size: 35px;
+    margin-top: 10%;
+    margin-bottom: 2%;
+  }
+  .red_slika3 {
+    max-width: fit-content;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+  }
+  .designby {
+    max-width: 1300px;
+    margin: auto;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    font-weight: 400;
+    margin-top: 10%;
+  }
+  .container {
+    max-width: 1300px;
+    height: 10%;
+    border: solid white 1px;
+    background-image: url(/xxx2/Vector.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    margin: auto;
+  }
+}
