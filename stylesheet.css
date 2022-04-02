@@ -31,7 +31,7 @@ body {
     font-weight: 500;
   }
   .hero {
-    border: 2px solid black;
+    
     height: 500px;
     background-image: url(/xxx2/hero.png);
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
     background-position: center;
   }
   .Front_end {
-    border: red solid 2px;
+    
     font-weight: 800;
     font-size: 45px;
     padding-top: 5%;
@@ -58,7 +58,7 @@ body {
   .container1{
       display: flex;
       flex-direction: column;
-      border: solid 5px purple;
+      
   }
   .passions {
     text-align: center;
