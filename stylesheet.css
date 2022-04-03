@@ -115,7 +115,7 @@ body {
   .container2{
     margin-top: 10%;
       background-image: url(/xxx2/Vector.png); 
-     border: #14279b solid 2px;
+     border: white solid 1px;
      background-position:bottom;
      background-repeat:no-repeat;
      background-size:auto;
