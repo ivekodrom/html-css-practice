@@ -1,0 +1,64 @@
+.logo{
+    background-image:url(/asset/Flux\ 1.png);
+    height: 50px;
+    background-repeat: no-repeat;
+    width: 50px;
+    align-self: center;
+  
+}
+.hero{ 
+    background-color: #020015;
+    width: auto;
+    height: 1200px;
+    color: #ffffff;
+    
+}
+.nav{ 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+   
+    
+   
+}
+.blux{
+    font-weight: 700 bold;
+    align-self:center;
+    padding-right: 80%;
+    font-size: 25px;
+    
+
+}
+.mini{
+    background-image: url(/asset/Rectangle\ 1.png);
+    width: 34px;
+    height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+    border-radius: 2px;
+   
+}
+.slika1{
+    background-image: url(/asset/Crypto-home\ 2.png);
+    height: 287px;
+    width: 245px;
+    background-repeat: no-repeat
+}
+.slika2{
+    background-image: url(/asset/Security\ 2.png);
+    width: 219px;
+    height: 234px;
+}
+.slike{
+    height: 1200px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
