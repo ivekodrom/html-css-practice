@@ -13,7 +13,7 @@ body{
 .hero{ 
     background-color: #020015;
     width: auto;
-    height: 1200px;
+    height: 1500px;
     color: #ffffff;
 
     
@@ -51,38 +51,45 @@ body{
 }
 .slika1{
     background-image: url(/asset/Crypto-home\ 2.png);
+   
     height: 300px;
     width: 300px;
     background-repeat: no-repeat;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
+    
 }
 .slika2{
     background-image: url(/asset/Security\ 2.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 300px;
+    width:300px;
     height: 300px;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
 }
 .slike{
-    height: 1200px;
+    height: 1500px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    
     
 }
 .text{
       font-size: 18px;
       font-weight: 400;
       color: #FFFFFF80;
-      padding-top: 20%;
+      padding-top: 15%;
+      width: 300px;
+      text-align: center;
+      
+      
 }
-button{
+.mlearnmore{
    border-radius: 60px;
    border-color:#2B61D1;
    background-color: #020015;
@@ -91,7 +98,15 @@ button{
    width: 204px;
    height: 53px;
 }
- button :hover{
-    border-color: aqua;
+
+.mlaunch{ 
+border-radius: 60px;
+   border-color:#2B61D1;
+   background-color: #020015;
+   color: #ffffff;
+   font-size: 24px;
+   width: 204px;
+   height: 53px;
+}
 
 }
