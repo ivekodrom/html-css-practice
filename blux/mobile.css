@@ -137,11 +137,84 @@ body{
 
 }
 .kadena{
-    border: #020015 solid 1px;
+    border-radius: 30px;
+    margin-top: 5%;
+    border: gray solid 3px;
     width: 242px;
     height: 254px;
-    background-image:url(/asset/KADENA\ 1.png);
-    background-repeat: no-repeat;
-    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
 }
+.logok{
+    background-image: url(/asset/KADENA\ 1.png);
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    margin-top: 10%;
+}
+.kadenatxt{
+    background-image: url(/asset/KADENA.png);
+    width: 102px;
+    height: 29px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-top: 15%;
+}
+.fluxkda{
+    background-image: url(/asset/FLUX-KDA.png);
+    width: 124px;
+    height: 29px;
+    align-self: center;
+    background-repeat: no-repeat;
+    margin-bottom: 15%;
+}
+.ethereum{
 
+    border-radius: 30px;
+    margin-top: 5%;
+    border:gray solid 3px;
+    width:242px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.logoe{
+    background-image: url(/asset/ethereum.png);
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    margin-top: 10%;
+
+}
+.ethertxt{
+    background-image: url(/asset/ETHEREUMtxt.png);
+    width: 133px;
+    height: 29px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-top: 15%;
+}
+.etherkda{
+    background-image: url(/asset/FLUX-ETH.png);
+    width: 122px;
+    height: 29px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 15%;
+    
+}
+.binance{
+    border-radius: 30px;
+    margin-top: 5%;
+    border:gray solid 3px;
+    width:242px;
+    height: 254px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
