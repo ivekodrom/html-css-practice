@@ -250,3 +250,39 @@ body{
 
     #content-desktop {display: none;}
     #content-mobile {display: block;}
+}
+.side{
+    border: white solid 2px;
+    background-image: url(/asset/Rectangle\ 6.png);
+    background-repeat: no-repeat;
+    border-radius: 60px;
+    width: 172px;
+    height: 324px;
+    top: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+  
+
+}
+.vector{
+    background-image: url(/asset/Vector.png);
+    width: 49px;
+    height:38px;
+    color: #ffffff;
+
+}
+.facebook{
+    background-image: url(/asset/facebook\ 1.png);
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 49px;
+    
+}
+.insta{
+    background-image: url(/asset/instagram\ 1.png);
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 49px;
+}
