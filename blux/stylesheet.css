@@ -1,6 +1,10 @@
 body{
     font-family: 'Sen', sans-serif;
 }
+
+
+    #content-desktop {display: block;}
+#content-mobile {display: none;}
 .logo{
     background-image:url(/asset/Flux\ 1.png);
     height: 50px;
@@ -246,7 +250,8 @@ body{
     align-self: center;
     margin-bottom: 15%;
 }
-@media screen and (min-width: 834px) {
+
+@media screen and (min-width: 834px)  {
 
     #content-desktop {display: none;}
     #content-mobile {display: block;}
@@ -255,22 +260,28 @@ body{
     border: white solid 2px;
     background-image: url(/asset/Rectangle\ 6.png);
     background-repeat: no-repeat;
+    background-position: right;
     border-radius: 60px;
     width: 172px;
     height: 324px;
     top: 300px;
+    left: -86px;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    position: absolute;
     
   
 
 }
 .vector{
     background-image: url(/asset/Vector.png);
+    background-repeat: no-repeat;
     width: 49px;
     height:38px;
     color: #ffffff;
+    align-self:flex-end;
+    padding-right: 10%;
 
 }
 .facebook{
@@ -278,6 +289,8 @@ body{
     background-repeat: no-repeat;
     width: 49px;
     height: 49px;
+    align-self: flex-end;
+    padding-right: 10%;
     
 }
 .insta{
@@ -285,4 +298,8 @@ body{
     background-repeat: no-repeat;
     width: 49px;
     height: 49px;
+    align-self:flex-end;
+    padding-right: 10%;
 }
+
+    
