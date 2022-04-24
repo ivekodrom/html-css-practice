@@ -100,7 +100,7 @@ body{
 }
 
 .mlaunch{ 
-border-radius: 60px;
+   border-radius: 60px;
    border-color:#2B61D1;
    background-color: #020015;
    color: #ffffff;
@@ -110,10 +110,10 @@ border-radius: 60px;
 }
 
 .dva{
-    
     display:flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
    
 }
 .leverage{
@@ -121,12 +121,27 @@ border-radius: 60px;
     height: 172px;
     color: #020015;
     font-size: 36px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 5%;
 }
 .inovation{
+
+    font-weight: 700;
     height: 203px;
     width: 300px;
     font-size: 24px;
-    color: #FFFFFF80;
+    color: gray;
+    margin-top: 3%;
 
 
 }
+.kadena{
+    border: #020015 solid 1px;
+    width: 242px;
+    height: 254px;
+    background-image:url(/asset/KADENA\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
