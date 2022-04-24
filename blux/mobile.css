@@ -218,3 +218,28 @@ body{
     justify-content: space-around;
 
 }
+.logob{
+    background-image: url(/asset/flux.png);
+    width: 120px;
+    height: 120px;
+    align-self: center;
+    margin-top: 10%;
+
+}
+.binancetxt{
+    background-image:url(/asset/BINANCE.png);
+    width: 114px;
+    height: 29px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-top: 15%;
+
+}
+.binancekda{
+    background-image: url(/asset/FLUX-BSC.png);
+    width: 118px;
+    height: 29px;
+    background-repeat: no-repeat;
+    align-self: center;
+    margin-bottom: 15%;
+}
