@@ -3,8 +3,8 @@ body{
 }
 
 
-    #content-desktop {display: block;}
-#content-mobile {display: none;}
+ #content-desktop {display: none;}
+ #content-mobile {display: none;}
 .logo{
     background-image:url(/asset/Flux\ 1.png);
     height: 50px;
@@ -301,5 +301,3 @@ body{
     align-self:flex-end;
     padding-right: 10%;
 }
-
-    
